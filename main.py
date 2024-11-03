@@ -1,8 +1,10 @@
-import scrapy
 import time
 import csv
+from  selenium import webdriver
+from selenium.webdriver.common.by import By
 
-driver =
+driver = webdriver.Chrome()
+
 class LampparsSpider(scrapy.Spider):
     name = "lamppars"
     allowed_domains = ["https://divan.ru"]
