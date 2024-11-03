@@ -2,7 +2,7 @@ import scrapy
 import time
 import csv
 
-
+driver =
 class LampparsSpider(scrapy.Spider):
     name = "lamppars"
     allowed_domains = ["https://divan.ru"]
